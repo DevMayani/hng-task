@@ -157,6 +157,39 @@ height: 42px;
       margin-left: 143px;
     }
 } 
+@media(max-width: 390px) {
+  button{
+    width: 90%;
+    height: 50px;
+   margin-top: 20px;
+   background-color: #F4F5F7;
+   border: none;
+  }
+  .link{
+    margin-left: 50px;
+    }
+    .sociali{
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start; 
+      width: 100%;
+      margin-left: 50px;
+      gap: 2rem;
+    
+     }
+     .dot{
+      visibility: visible;
+    }
+    .share{
+        visibility: hidden;
+    }
+    #profile__img{
+      width: 88px;
+      height: 88px;
+      border-radius: 275px;
+      margin-left: 120px;
+    }
+
 
 @media(max-width: 320px) {
   button{
