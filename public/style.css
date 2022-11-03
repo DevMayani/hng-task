@@ -106,7 +106,7 @@ height: 42px;
       width: 88px;
       height: 88px;
       border-radius: 275px;
-      margin-left: 200px;
+      margin-left: 275px;
     }
 
   
@@ -114,6 +114,11 @@ height: 42px;
 
 
 @media(max-width:480px) {
+  body {
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+   
+  }
   button{
     width: 90%;
     height: 50px;
@@ -149,7 +154,7 @@ height: 42px;
       width: 88px;
       height: 88px;
       border-radius: 275px;
-      margin-left: 200px;
+      margin-left: 143px;
     }
 } 
 
@@ -183,7 +188,7 @@ height: 42px;
       width: 88px;
       height: 88px;
       border-radius: 275px;
-      margin-left: 200px;
+      margin-left: 89px;
     }
 }
 
