@@ -10,6 +10,7 @@ const Link = () => {
       <button id="book__python"><a href="https://books.zuri.team/">Pythons Books</a></button>
       <button id="pitch"><a href="https://background.zuri.team/">Background Check for code</a></button>
       <button id="book__design"><a href="https://books.zuri.team/design-rules">Designs Books</a></button>
+      <button id="contact"><a href="">Contact Me</a></button>
     </div>
   )
 }
