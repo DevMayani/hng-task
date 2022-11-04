@@ -3,9 +3,11 @@
 *{
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 body {
   font-family: 'Inter', sans-serif;
+  /* overflow-x: hidden; */
  
 }
 #profile__img{
@@ -31,6 +33,7 @@ body {
 .heading{
   padding: 20px 0;
   text-align: center;
+  
 }
 #Slack{
   visibility: hidden;
@@ -72,6 +75,11 @@ height: 42px;
 
 
 @media(max-width:890px) {
+  body {
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+   
+  }
   button{
     width: 90%;
     height: 50px;
@@ -92,7 +100,7 @@ height: 42px;
       flex-direction: column;
       justify-content: center;
       align-items: flex-start; 
-      width: 100%; 
+      width: 80%; 
       margin-left: 50px;
       gap: 2rem;
      }
@@ -125,6 +133,7 @@ height: 42px;
    margin-top: 20px;
    background-color: #F4F5F7;
    border: none;
+   margin: auto;
   }
   .link{
     margin-left: 50px;
@@ -140,7 +149,7 @@ height: 42px;
       flex-direction: column;
       justify-content: center; 
       align-items: flex-start; 
-      width: 100%;
+      width: 80%;
       margin-left: 50px;
       gap: 2rem;
      }
@@ -154,10 +163,22 @@ height: 42px;
       width: 88px;
       height: 88px;
       border-radius: 275px;
-      margin-left: 143px;
+      margin-left: 104px;
+    }
+    .heading{
+      padding: 20px 0;
+      text-align: center;
+      width: 80%;
+      margin: auto;
+      
     }
 } 
 @media(max-width: 390px) {
+  body {
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+   
+  }
   button{
     width: 90%;
     height: 50px;
@@ -168,17 +189,24 @@ height: 42px;
   .link{
     margin-left: 50px;
     }
+    .hiiih{
+      display: flex;
+      justify-content: space-between;
+      align-items:center;
+      margin-right: 50px;
+    }
     .sociali{
       flex-direction: column;
       justify-content: center;
       align-items: flex-start; 
-      width: 100%;
+      width: 80%;
       margin-left: 50px;
       gap: 2rem;
     
      }
      .dot{
       visibility: visible;
+      /* margin-right: 40px; */
     }
     .share{
         visibility: hidden;
@@ -187,11 +215,16 @@ height: 42px;
       width: 88px;
       height: 88px;
       border-radius: 275px;
-      margin-left: 120px;
+      margin-left: 102px;
     }
 
 
 @media(max-width: 320px) {
+  body {
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+   
+  }
   button{
     width: 90%;
     height: 50px;
@@ -206,7 +239,7 @@ height: 42px;
       flex-direction: column;
       justify-content: center;
       align-items: flex-start; 
-      width: 100%;
+      width: 80%;
       margin-left: 50px;
       gap: 2rem;
     
@@ -223,6 +256,8 @@ height: 42px;
       border-radius: 275px;
       margin-left: 89px;
     }
+}
+
 }
 
 
