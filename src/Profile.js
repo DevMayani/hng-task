@@ -1,7 +1,7 @@
 import React from "react";
 
 
-  const Link = () => {
+  const Profile = () => {
     return (
       <div className="heading">
         <div className="hiiih">
@@ -27,4 +27,4 @@ import React from "react";
   }
 
 
-export default Link
+export default Profile

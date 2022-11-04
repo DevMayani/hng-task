@@ -14,7 +14,9 @@ body {
   width: 88px;
   height: 88px;
   border-radius: 275px;
-  margin-left: 430px;
+  /* margin-left: 430px; */
+  justify-items: center;
+  text-align: center;
 }
 #twitter{
   margin-top: 10px;
@@ -24,11 +26,17 @@ body {
 }
 .hiiih{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items:center;
+  position: relative;
 }
 .dot{
   visibility: hidden;
+}
+.share{
+  position: absolute;
+  top: 50px;
+  right: 350px;
 }
 .heading{
   padding: 20px 0;
@@ -87,12 +95,18 @@ height: 42px;
    background-color: #F4F5F7;
    border: none;
   }
+  /* .hiiih{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+  } */
   .link{
     margin-left: 50px;
     }
     .social{
       display: flex;
-      justify-content: space-around;
+      justify-content: center;
       align-items:center;
     
     }
@@ -106,6 +120,9 @@ height: 42px;
      }
      .dot{
       visibility: visible;
+      /* position: absolute;
+      top: 50px;
+      right: 350px; */
     }
     .share{
         visibility: hidden;
@@ -114,7 +131,7 @@ height: 42px;
       width: 88px;
       height: 88px;
       border-radius: 275px;
-      margin-left: 275px;
+      /* margin-left: 275px; */
     }
 
   
@@ -140,7 +157,7 @@ height: 42px;
     }
     .social{
       display: flex;
-      justify-content: space-around;
+      justify-content: center;
       align-items:center;
      
     
@@ -155,6 +172,8 @@ height: 42px;
      }
      .dot{
       visibility: visible;
+      /* position: absolute;
+      left: 300px; */
     }
     .share{
         visibility: hidden;
@@ -163,15 +182,20 @@ height: 42px;
       width: 88px;
       height: 88px;
       border-radius: 275px;
-      margin-left: 104px;
+      /* margin-left: 104px; */
     }
     .heading{
       padding: 20px 0;
       text-align: center;
       width: 80%;
       margin: auto;
-      
     }
+    /* .hiiih{
+      display: flex;
+      justify-content: center;
+      align-items:center;
+      position: relative;
+    } */
 } 
 @media(max-width: 390px) {
   body {
@@ -189,12 +213,12 @@ height: 42px;
   .link{
     margin-left: 50px;
     }
-    .hiiih{
+    /* .hiiih{
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items:center;
-      margin-right: 50px;
-    }
+      position: relative;
+    } */
     .sociali{
       flex-direction: column;
       justify-content: center;
@@ -206,7 +230,9 @@ height: 42px;
      }
      .dot{
       visibility: visible;
-      /* margin-right: 40px; */
+      /* position: absolute; */
+      /* top: 50px;
+      left: 219px; */
     }
     .share{
         visibility: hidden;
@@ -215,7 +241,7 @@ height: 42px;
       width: 88px;
       height: 88px;
       border-radius: 275px;
-      margin-left: 102px;
+      /* margin-left: 102px; */
     }
 
 
@@ -244,9 +270,7 @@ height: 42px;
       gap: 2rem;
     
      }
-     .dot{
-      visibility: visible;
-    }
+     
     .share{
         visibility: hidden;
     }
@@ -254,7 +278,19 @@ height: 42px;
       width: 88px;
       height: 88px;
       border-radius: 275px;
-      margin-left: 89px;
+      /* margin-left: 89px; */
+    }
+    /* .hiiih{
+      display: flex;
+      justify-content: center;
+      align-items:center;
+      position: relative;
+    } */
+    .dot{
+      visibility: visible;
+      /* position: absolute;
+      top: 48px;
+      left: 200px; */
     }
 }
 
