@@ -1,9 +1,42 @@
 import React from "react";
+import Footer from "./Footer";
 
 
-  const Social = () => {
+  const Home = () => {
     return (
-      <div className="social">
+      <div>
+        <div>
+        <header>
+        <div className="heading">
+        <div className="hiiih">
+        <img src="jojo_img4.jpeg" 
+        alt="jojo"
+        id="profile__img" /> 
+        <img src="share.svg"
+      alt="photo"
+      className="share"
+      />
+      <img src="dot.svg"
+      alt="photo"
+      className="dot"
+      />
+        </div>
+        
+        <h3 id="twitter">Jojo Mayani</h3>
+        <h3 id="Slack">Slack Username:daramola josephine</h3>
+      </div>
+        </header>
+        <main>
+        <div className="link">
+       <button id="twitter-link"><a href="https://twitter.com/jojo_mayani">Twitter Link</a></button>
+      <button id="btn__zuri"><a href="https://training.zuri.team/">Zuri Team</a></button>
+      <button id="books"><a href="http://books.zuri.team/">Zuri Books</a></button>
+      <button id="book__python"><a href="https://books.zuri.team/">Pythons Books</a></button>
+      <button id="pitch"><a href="https://background.zuri.team/">Background Check for code</a></button>
+      <button id="book__design"><a href="https://books.zuri.team/design-rules">Designs Books</a></button>
+      <button id="contact"><a href="/contact">Contact Me</a></button>
+    </div>
+    <div className="social">
   <svg width="1216" height="72" viewBox="0 0 1216 72" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="1216" height="72" fill="white"/>
 <path d="M591.875 35.2498C592.911 35.2498 593.75 34.4104 593.75 33.375C593.75 32.3395 592.911 31.5001 591.875 31.5001C590.84 31.5001 590 32.3396 590 33.3751V35.2498H591.875ZM586.625 35.2498C587.661 35.2498 588.5 34.4103 588.5 33.3748V28.1251C588.5 27.0896 587.661 26.2501 586.625 26.2501C585.589 26.2501 584.75 27.0896 584.75 28.1251V33.3748C584.75 34.4103 585.589 35.2498 586.625 35.2498Z" fill="#2EB67D"/>
@@ -20,8 +53,15 @@ import React from "react";
 </defs>
 </svg>
       </div>
+        </main>
+        </div>
+        
+        <Footer />
+      </div>
+     
+      
     )
   }
 
 
-export default Social
+export default Home
